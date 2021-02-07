@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sample Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#" class="header-menu-link active">Home</a></li>
+                    <li class="header-menu-item"><a href="#about" class="header-menu-link">About me</a></li>
+                    <li class="header-menu-item"><a href="#skills" class="header-menu-link">Skills</a></li>
+                    <li class="header-menu-item"><a href="#portfolio" class="header-menu-link">Portfolio</a></li>
+                    <li class="header-menu-item"><a href="#contacts" class="header-menu-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="button hamburger-button"></button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-wrapper">
+            <div class="hero-info">
+                <h2 class="hero-title">Freelance <br>Developer</h2>
+                <p class="hero-description">
+                    UX | UI designer<br>
+                    28 years old, City
+                </p>
+                <div class="hero-language">
+                    <a href="#" class="active">RU</a>
+                    <span>|</span>
+                    <a href="#">ENG</a>
+                </div>
+            </div>
+            <img src="img/hero-image.jpg" alt="image: photo" class="hero-image">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-wrapper">
+            <h3 class="section-title about-title">About me</h3>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque quasi quis rem? Beatae, culpa earum est fuga hic necessitatibus praesentium quam quia sed sunt tenetur ullam veniam vitae voluptates!</p>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum earum enim id ipsum maxime nobis, nostrum obcaecati officia quibusdam quod repudiandae rerum tempore! Eveniet inventore ipsa quas recusandae repellendus?</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="skills-wrapper">
+            <h3 class="section-title skills-title">Skills</h3>
+            <span class="skills-text">I work in such programs as</span>
+            <div class="skills-cards">
+                <div class="skills-card">
+                    <img src="img/card-image-ps.png" alt="image: photoshop icon" class="skills-card-image">
+                    <span class="skills-card-text">Adobe Photoshop</span>
+                    <svg width="166" height="26" class="icon icon-rating-stars">
+                        <use xlink:href="img/icon-rating-stars.svg#icon-rating-stars-4"></use>
+                    </svg>
+                </div>
+                <div class="skills-card">
+                    <img src="img/card-image-ai.png" alt="image: illustrator icon" class="skills-card-image">
+                    <span class="skills-card-text">Adobe Illustrator</span>
+                    <svg width="166" height="26" class="icon icon-rating-stars">
+                        <use xlink:href="img/icon-rating-stars.svg#icon-rating-stars-4"></use>
+                    </svg>
+                </div>
+                <div class="skills-card">
+                    <img src="img/card-image-ae.png" alt="image: after effects icon" class="skills-card-image">
+                    <span class="skills-card-text">Adobe After Effects</span>
+                    <svg width="166" height="26" class="icon icon-rating-stars">
+                        <use xlink:href="img/icon-rating-stars.svg#icon-rating-stars-4"></use>
+                    </svg>
+                </div>
+                <div class="skills-card">
+                    <img src="img/card-image-figma.png" alt="image: figma icon" class="skills-card-image">
+                    <span class="skills-card-text">Figma</span>
+                    <svg width="166" height="26" class="icon icon-rating-stars">
+                        <use xlink:href="img/icon-rating-stars.svg#icon-rating-stars-4"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-wrapper">
+            <h3 class="section-title portfolio-title">Portfolio</h3>
+            <div class="portfolio-item">
+                <img src="img/portfolio-image-1.jpg" alt="image: portfolio screen" class="portfolio-item-image">
+                <a href="#" class="portfolio-item-link" target="_blank">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/portfolio-image-2.jpg" alt="image: portfolio screen" class="portfolio-item-image">
+                <a href="#" class="portfolio-item-link" target="_blank">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/portfolio-image-3.jpg" alt="image: portfolio screen" class="portfolio-item-image">
+                <a href="#" class="portfolio-item-link" target="_blank">Braun Landing Page - Concept</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="contacts-wrapper">
+            <h3 class="section-title contacts-title">Contacts</h3>
+            <p class="contacts-text">Want to know more or just chat?<br>You are welcome!</p>
+            <button class="button contacts-button">Send message</button>
+            <div class="contacts-social">
+                <a href="#" class="social-link"><img src="img/icon-linkedin.svg" alt="icon: linkedin" class="social-icon"></a>
+                <a href="#" class="social-link"><img src="img/icon-instagram.svg" alt="icon: instagram" class="social-icon"></a>
+                <a href="#" class="social-link"><img src="img/icon-behance.svg" alt="icon: behance" class="social-icon"></a>
+                <a href="#" class="social-link"><img src="img/icon-dribble.svg" alt="icon: dribble" class="social-icon"></a>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
