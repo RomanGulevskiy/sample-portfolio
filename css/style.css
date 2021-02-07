@@ -318,6 +318,14 @@ body {
     .hero-language {
         display: none;
     }
+    .hero-language.mobile {
+        display: flex;
+        z-index: 101;
+        position: fixed;
+        top: 180px;
+        right: 10%;
+        transition: transform 0.2s;
+    }
     .hero-info {
         flex-direction: column;
         align-items: start;
