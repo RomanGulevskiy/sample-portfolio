@@ -70,7 +70,7 @@ body {
 .hero-info {
     display: flex;
     justify-content: space-between;
-    align-items: last baseline;
+    align-items: flex-end;
 }
 .hero-title {
     margin: 0;
@@ -80,7 +80,7 @@ body {
     color: #070707;
 }
 .hero-description {
-    margin: 0 auto 0 50px;
+    margin: 0 auto 9px 50px;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
