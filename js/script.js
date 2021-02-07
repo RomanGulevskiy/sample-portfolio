@@ -15,3 +15,5 @@ menuLink.forEach(link => {
         hamburgerButton.classList.toggle('hamburger-button-close');
     });
 });
+
+smoothscroll.polyfill();
